@@ -1,6 +1,10 @@
 class EntriesController < ApplicationController
   def index
     render :index
-  end 
+  end
+
+  def show
+    render :show
+  end
 
 end
