@@ -1,3 +1,5 @@
 <p>
-  Edit page
+  Edit <%= link_to @entry.word.capitalize, entry_path(@entry) %></h1>
 </p>
+
+<%= render 'entry_form', entry: @entry %>
